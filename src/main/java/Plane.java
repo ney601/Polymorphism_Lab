@@ -19,6 +19,6 @@ public class Plane extends Vehicle implements ISell {
 
     @Override
     public String descriptionOfVehicle(){
-        return "This is an " + name + " with " + numberOfWheels + " wheels and seating for " + capacity + " people. It can also fly up to a maximum altitude of " + maxAltitude + " m.";
+        return "This is an " + name + " with " + numberOfWheels + " wheels and seating for " + capacity + " people. It can also fly up to a maximum altitude of " + maxAltitude + "m.";
     }
 }

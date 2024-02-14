@@ -7,12 +7,22 @@ public class Car extends Vehicle{
         this.transmissionType = transmissionType;
     }
 
+    @Override
+    public String accelerate(){
+        return "Car is accelerating!";
+    }
+
     public String openTrunk(){
         return "I can open the trunk.";
     }
 
     public String addCarPlay(){
         return "I can add Car Play!";
+    }
+
+    @Override
+    public String descriptionOfVehicle(){
+        return "This is a " + transmissionType + " " + name + " with " + numberOfWheels + " wheels and seating for " + capacity + " people.";
     }
 
 }

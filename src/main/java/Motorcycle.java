@@ -15,4 +15,9 @@ public class Motorcycle extends Vehicle{
         return "I can perform a stoppie";
     }
 
+    @Override
+    public String descriptionOfVehicle(){
+        return "This is a " + name + " with " + numberOfWheels + " wheels, seating for " + capacity + " people and it is " + hasSidecar + " that it has a side care.";
+    }
+
 }

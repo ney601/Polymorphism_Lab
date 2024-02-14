@@ -14,4 +14,9 @@ public class Plane extends Vehicle{
     public String land(){
         return "I can land!";
     }
+
+    @Override
+    public String descriptionOfVehicle(){
+        return "This is an " + name + " with " + numberOfWheels + " wheels and seating for " + capacity + " people. It can also fly up to a maximum altitude of " + maxAltitude + " m.";
+    }
 }

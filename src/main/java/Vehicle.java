@@ -1,8 +1,8 @@
 public abstract class Vehicle {
 
-    private String name;
-    private int capacity;
-    private int numberOfWheels;
+    protected String name;
+    protected int capacity;
+    protected int numberOfWheels;
 
     public Vehicle(String name, int capacity, int numberOfWheels){
         this.name = name;
@@ -10,12 +10,14 @@ public abstract class Vehicle {
         this.numberOfWheels = numberOfWheels;
     }
 
+    public abstract String descriptionOfVehicle();
+
     public boolean start(){
         return true;
     }
 
-    public boolean accelerate(){
-        return true;
+    public String accelerate(){
+        return "The car can accelerate";
     }
 
     public boolean brake(){

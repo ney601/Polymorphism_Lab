@@ -21,4 +21,14 @@ public class CarTest {
     public void canAddCarPlay(){
         assertThat(car.addCarPlay()).isEqualTo("I can add Car Play!");
     }
+
+    @Test
+    public void canAccelerate(){
+        assertThat(car.accelerate()).isEqualTo("Car is accelerating!");
+    }
+
+    @Test
+    public void canProvideDescriptionOfVehicle(){
+        assertThat(car.descriptionOfVehicle()).isEqualTo("This is a Automatic Mercedes with 4 wheels and seating for 5 people.");
+    }
 }

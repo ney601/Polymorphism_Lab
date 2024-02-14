@@ -21,4 +21,9 @@ public class MotorcycleTest {
     public void canPerformStoppie(){
         assertThat(motorcycle.performStoppie()).isEqualTo("I can perform a stoppie");
     }
+
+    @Test
+    public void canProvideDescriptionOfVehicle(){
+        assertThat(motorcycle.descriptionOfVehicle()).isEqualTo("This is a Royal Enfield with 2 wheels, seating for 2 people and it is true that it has a side car.");
+    }
 }

@@ -1,9 +1,10 @@
+import interfaces.ISell;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class ServiceTest {
+public abstract class ServiceTest implements ISell {
 
     Car car;
     Motorcycle motorcycle;

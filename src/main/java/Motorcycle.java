@@ -23,7 +23,7 @@ public class Motorcycle extends Vehicle implements ISell {
 
     @Override
     public String descriptionOfVehicle(){
-        return "This is a " + name + " with " + numberOfWheels + " wheels, seating for " + capacity + " people and it is " + hasSidecar + " that it has a side care.";
+        return "This is a " + name + " with " + numberOfWheels + " wheels, seating for " + capacity + " people and it is " + hasSidecar + " that it has a side car.";
     }
 
 }

@@ -6,6 +6,6 @@ public interface ISell {
 
     boolean checkWiring();
 
-    String sellingTires(int quantity);
+    int sellingTires(int quantity);
 
 }

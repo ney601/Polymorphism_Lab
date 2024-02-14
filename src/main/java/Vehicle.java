@@ -35,7 +35,7 @@ public abstract class Vehicle implements ISell {
     }
 
     @Override
-    public String sellingTires(int quantity) {
-        return "I sold " + quantity + " tires.";
+    public int sellingTires(int quantity) {
+        return 4;
     }
 }

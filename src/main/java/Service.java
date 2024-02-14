@@ -1,6 +1,6 @@
 import interfaces.ISell;
 
-public abstract class Service implements ISell {
+public class Service{
 
     public static void main(String[] args) {
         Vehicle car = new Car("Mercedes", 5, 4, "Automatic");

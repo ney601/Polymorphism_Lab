@@ -1,4 +1,6 @@
-public class Plane extends Vehicle{
+import interfaces.ISell;
+
+public class Plane extends Vehicle implements ISell {
 
     private int maxAltitude;
 

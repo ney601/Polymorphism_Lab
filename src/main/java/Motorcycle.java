@@ -1,4 +1,6 @@
-public class Motorcycle extends Vehicle{
+import interfaces.ISell;
+
+public class Motorcycle extends Vehicle implements ISell {
 
     private boolean hasSidecar;
 

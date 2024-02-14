@@ -1,4 +1,6 @@
-public class Car extends Vehicle{
+import interfaces.ISell;
+
+public class Car extends Vehicle implements ISell {
 
     private String transmissionType;
 

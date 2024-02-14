@@ -1,4 +1,6 @@
-public abstract class Vehicle {
+import interfaces.ISell;
+
+public abstract class Vehicle implements ISell {
 
     protected String name;
     protected int capacity;
@@ -24,4 +26,16 @@ public abstract class Vehicle {
         return true;
     }
 
+    public boolean checkEngine(){
+        return true;
+    }
+
+    public boolean checkWiring() {
+        return true;
+    }
+
+    @Override
+    public String sellingTires(int quantity) {
+        return "I sold " + quantity + " tires.";
+    }
 }

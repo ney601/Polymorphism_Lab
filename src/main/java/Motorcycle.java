@@ -11,6 +11,10 @@ public class Motorcycle extends Vehicle{
         return "I can perform a wheelie";
     }
 
+    public String performWheelie(int durationiInSeconds){
+        return "I can perform a wheelie for " + durationiInSeconds + " seconds.";
+    }
+
     public String performStoppie(){
         return "I can perform a stoppie";
     }
